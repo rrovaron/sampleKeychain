@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4803E4EE261D27140004D75E /* SimpleKeychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleKeychain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4803E4EE261D27140004D75E /* SampleKeychain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleKeychain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4803E4F1261D27140004D75E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4803E4F3261D27140004D75E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4803E4F5261D27140004D75E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		4803E4E5261D27140004D75E = {
 			isa = PBXGroup;
 			children = (
-				4803E4F0261D27140004D75E /* SimpleKeychain */,
+				4803E4F0261D27140004D75E /* SampleKeychain */,
 				4803E4EF261D27140004D75E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		4803E4EF261D27140004D75E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4803E4EE261D27140004D75E /* SimpleKeychain.app */,
+				4803E4EE261D27140004D75E /* SampleKeychain.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4803E4F0261D27140004D75E /* SimpleKeychain */ = {
+		4803E4F0261D27140004D75E /* SampleKeychain */ = {
 			isa = PBXGroup;
 			children = (
 				4803E4F1261D27140004D75E /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				4803E4FC261D27150004D75E /* LaunchScreen.storyboard */,
 				4803E4FF261D27150004D75E /* Info.plist */,
 			);
-			path = SimpleKeychain;
+			path = SampleKeychain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4803E4ED261D27140004D75E /* SimpleKeychain */ = {
+		4803E4ED261D27140004D75E /* SampleKeychain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4803E502261D27150004D75E /* Build configuration list for PBXNativeTarget "SimpleKeychain" */;
+			buildConfigurationList = 4803E502261D27150004D75E /* Build configuration list for PBXNativeTarget "SampleKeychain" */;
 			buildPhases = (
 				4803E4EA261D27140004D75E /* Sources */,
 				4803E4EB261D27140004D75E /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = SimpleKeychain;
+			name = SampleKeychain;
 			productName = SimpleKeychain;
-			productReference = 4803E4EE261D27140004D75E /* SimpleKeychain.app */;
+			productReference = 4803E4EE261D27140004D75E /* SampleKeychain.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4803E4E9261D27140004D75E /* Build configuration list for PBXProject "SimpleKeychain" */;
+			buildConfigurationList = 4803E4E9261D27140004D75E /* Build configuration list for PBXProject "SampleKeychain" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4803E4ED261D27140004D75E /* SimpleKeychain */,
+				4803E4ED261D27140004D75E /* SampleKeychain */,
 			);
 		};
 /* End PBXProject section */
@@ -287,13 +287,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6VK3M5YTM3;
-				INFOPLIST_FILE = SimpleKeychain/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/SampleKeychain/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rrovaron.SimpleKeychain;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrovaron.SampleKeychain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +306,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6VK3M5YTM3;
-				INFOPLIST_FILE = SimpleKeychain/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/SampleKeychain/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rrovaron.SimpleKeychain;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rrovaron.SampleKeychain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4803E4E9261D27140004D75E /* Build configuration list for PBXProject "SimpleKeychain" */ = {
+		4803E4E9261D27140004D75E /* Build configuration list for PBXProject "SampleKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4803E500261D27150004D75E /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4803E502261D27150004D75E /* Build configuration list for PBXNativeTarget "SimpleKeychain" */ = {
+		4803E502261D27150004D75E /* Build configuration list for PBXNativeTarget "SampleKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4803E503261D27150004D75E /* Debug */,
